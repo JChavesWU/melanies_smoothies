@@ -18,9 +18,9 @@ st.write('The name on the smotthie will be: ', name_on_order)
 
 pd_df = my_dataframe.to_pandas()
 
-st.dataframe(pd_df)
+#st.dataframe(pd_df)
 
-st.stop()
+#st.stop()
 
 ingredients_list = st.multiselect(
     'Choose up to 5 ingredients:',
